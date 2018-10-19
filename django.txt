@@ -40,6 +40,7 @@ python manage.py migrate
 Первым делом необходимо создать пользователя, который может заходить на интерфейс администратора. Выполните следующую команду:
 python manage.py createsuperuser
 
+python manage.py collectstatic
 
 -----Django REST framework-----
 pip install djangorestframework
