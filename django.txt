@@ -1,6 +1,7 @@
 Мы создадим виртуальное окружение под именем myvenv:
 python -m venv myvenv
-
+или
+virtualenv --python=python2.7 venv
 
 Запусти виртуальное окружение, выполнив:
 myvenv\Scripts\activate
